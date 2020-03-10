@@ -1,0 +1,77 @@
+.header {
+    background-color: rgb(90, 114, 106);
+    color: white;
+    border-bottom: solid rgb(233, 92, 92) 10px;
+    text-align: center;
+    min-width: 100%;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lookup{
+    padding-left:130px;
+    padding-right:130px;
+}
+
+.contentTable{
+    background-color: rgb(255, 255, 255);
+    border: rgb(189, 189, 189) solid 2px;
+    text-align: center;
+    box-shadow: 3px 4px 10px grey ;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.TableHead{
+    
+    display: block;
+    background-color: lightgoldenrodyellow;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 9px 10px -9px rgb(182, 182, 182) ;
+}
+
+.contentData{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.tab{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: calc(20% - 4px);
+    
+}
+
+.content{
+    text-align: center;
+}
+
+.contentHead:hover {
+    box-shadow: 0px 9px 10px -9px rgb(182, 182, 182) ;
+    background-color: rgb(231, 231, 170);
+}
+
+.contentData:hover {
+    box-shadow: 0px 9px 10px -9px rgb(182, 182, 182) ;
+    background-color: rgb(245, 245, 245);
+}
+
+.imageEmploy {
+    object-fit: contain;
+    min-width: calc(100% - 15px);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ul {list-style-type: none;}
